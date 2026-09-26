@@ -14,7 +14,7 @@ public class NumberTool {
     System.out.println("3.判断闰年");
     System.out.println("0.退出");
 
-    while(true) {
+    while(run) {
     //用户输入
     System.out.println("请输入选项：");
 
@@ -35,6 +35,7 @@ public class NumberTool {
 
         case 0:
             System.out.println("退出程序");
+            run = faise;
             break;
 
         default:
